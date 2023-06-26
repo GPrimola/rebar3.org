@@ -87,6 +87,7 @@ By default, Rebar3 sticks to the compilers available to `erlc`: Erlang, yecc, MI
 
 - if you are still using `Makefile`s to create shortcut commands, consider using [aliases](/docs/configuration/plugins/#alias)
 - for code coverage, you will want to use the 'cover' command, as in 'rebar3 do eunit, cover'. See the [cover](/docs/commands#cover) documentation for more details.
+- to generate documentation use `rebar3 edoc` (previous was `rebar doc`).
 
 ## Maintaining backwards compatibility while using Hex packages
 
